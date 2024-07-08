@@ -1,0 +1,5 @@
+[ 2024-07-08 23:52:34,269 ] 18 root - INFO - Creating Schema To Save Todo's
+[ 2024-07-08 23:52:34,330 ] 96 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:8000
+[ 2024-07-08 23:52:34,331 ] 96 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[ 2024-07-08 23:52:34,334 ] 96 werkzeug - INFO -  * Restarting with stat

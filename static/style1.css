@@ -1,0 +1,137 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.background-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-image: url('background.jpg'); */
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px); /* Adjust the pixel value to control the level of blur */
+    z-index: -1; /* Ensure the background container is behind other elements */
+}
+
+.container {
+    max-width: 500px;
+    margin: 45px auto;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.8); /* White background with some transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 50%);
+    position: relative;
+    z-index: 1;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #333;
+}
+
+.todo-item {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.todo-item div {
+    flex: 1 1 48%; /* Two columns with equal width */
+}
+
+label {
+    display: block;
+    margin-bottom: -10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"], input[type="date"], select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #357a38;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #285a2a;
+}
+
+.navbar {
+    background-color: #131413;
+    overflow: hidden;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+.navbar .logo {
+    color: #fff;
+    font-size: 1.5em;
+    padding: 10px;
+    float: left;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: right;
+}
+
+.navbar ul li {
+    float: left;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul li a:hover {
+    background-color: #1f4fd1;
+}
+
+.navbar ul li input.search-bar {
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+/* Specific styles for labels and inputs in the form */
+label[for="dependencies"], label[for="estimatedTime"], label[for="progress"], label[for="reward"] {
+    margin-left: 0;
+}
+
+input[type="text"], input[type="date"], select {
+    margin-left: 0;
+}

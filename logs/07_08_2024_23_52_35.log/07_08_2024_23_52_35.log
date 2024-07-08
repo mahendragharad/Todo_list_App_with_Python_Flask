@@ -1,0 +1,112 @@
+[ 2024-07-08 23:52:35,572 ] 18 root - INFO - Creating Schema To Save Todo's
+[ 2024-07-08 23:52:35,603 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2024-07-08 23:52:35,603 ] 96 werkzeug - INFO -  * Debugger PIN: 139-676-339
+[ 2024-07-08 23:53:42,839 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-08 23:53:42,839 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-08 23:53:42,850 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:53:42] "GET / HTTP/1.1" 200 -
+[ 2024-07-08 23:53:43,136 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:53:43] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:56:00,926 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-08 23:56:00,926 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-08 23:56:00,926 ] 48 root - INFO - Making Post Method
+[ 2024-07-08 23:56:00,930 ] 58 root - INFO - Data Posted
+[ 2024-07-08 23:56:00,930 ] 61 root - INFO - Data Added Successfully
+[ 2024-07-08 23:56:00,950 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:56:00] "POST / HTTP/1.1" 200 -
+[ 2024-07-08 23:56:01,016 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:56:01] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:56:03,462 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-08 23:56:03,468 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:56:03] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-08 23:56:03,562 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:56:03] "[36mGET /static/table.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:56:09,308 ] 88 root - INFO - Inside Update Route
+[ 2024-07-08 23:56:09,318 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:56:09] "GET /update/1 HTTP/1.1" 200 -
+[ 2024-07-08 23:56:09,400 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:56:09] "[36mGET /static/update.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:56:09,417 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:56:09] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:57:03,678 ] 88 root - INFO - Inside Update Route
+[ 2024-07-08 23:57:03,678 ] 99 root - INFO - Convert due_date_str to datetime object
+[ 2024-07-08 23:57:03,678 ] 102 root - INFO - filtering record to update by using Sr_No
+[ 2024-07-08 23:57:03,678 ] 105 root - INFO - Assign all the todo's after updation
+[ 2024-07-08 23:57:03,678 ] 115 root - INFO - updated todo's added successfully
+[ 2024-07-08 23:57:03,693 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:03] "[32mPOST /update/1 HTTP/1.1[0m" 302 -
+[ 2024-07-08 23:57:03,709 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-08 23:57:03,711 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-08 23:57:03,715 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:03] "GET / HTTP/1.1" 200 -
+[ 2024-07-08 23:57:03,784 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:03] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:57:05,595 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-08 23:57:05,598 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:05] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-08 23:57:05,694 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:05] "[36mGET /static/table.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:57:40,951 ] 88 root - INFO - Inside Update Route
+[ 2024-07-08 23:57:40,953 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:40] "GET /update/1 HTTP/1.1" 200 -
+[ 2024-07-08 23:57:41,040 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:41] "[36mGET /static/update.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:57:41,040 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:41] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:57:56,820 ] 88 root - INFO - Inside Update Route
+[ 2024-07-08 23:57:56,821 ] 99 root - INFO - Convert due_date_str to datetime object
+[ 2024-07-08 23:57:56,822 ] 102 root - INFO - filtering record to update by using Sr_No
+[ 2024-07-08 23:57:56,824 ] 105 root - INFO - Assign all the todo's after updation
+[ 2024-07-08 23:57:56,824 ] 115 root - INFO - updated todo's added successfully
+[ 2024-07-08 23:57:56,837 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:56] "[32mPOST /update/1 HTTP/1.1[0m" 302 -
+[ 2024-07-08 23:57:56,839 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-08 23:57:56,839 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-08 23:57:56,839 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:56] "GET / HTTP/1.1" 200 -
+[ 2024-07-08 23:57:56,912 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:56] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:57:58,718 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-08 23:57:58,719 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:58] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-08 23:57:58,820 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:58] "[36mGET /static/table.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:57:59,898 ] 129 root - INFO - Inside Delete Route
+[ 2024-07-08 23:57:59,898 ] 130 root - INFO - Fetching record / todo by using Sr_No
+[ 2024-07-08 23:57:59,905 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:59] "[32mGET /delete/1 HTTP/1.1[0m" 302 -
+[ 2024-07-08 23:57:59,920 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-08 23:57:59,920 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:57:59] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-08 23:58:00,020 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:58:00] "[36mGET /static/table.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:58:01,471 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-08 23:58:01,471 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-08 23:58:01,471 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:58:01] "GET / HTTP/1.1" 200 -
+[ 2024-07-08 23:58:01,569 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:58:01] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:58:03,183 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-08 23:58:03,185 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:58:03] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-08 23:58:03,271 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:58:03] "[36mGET /static/table.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:58:04,409 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-08 23:58:04,410 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-08 23:58:04,413 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:58:04] "GET / HTTP/1.1" 200 -
+[ 2024-07-08 23:58:04,509 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:58:04] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:59:50,418 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-08 23:59:50,420 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:59:50] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-08 23:59:50,509 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:59:50] "[36mGET /static/table.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:59:51,652 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-08 23:59:51,652 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-08 23:59:51,654 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:59:51] "GET / HTTP/1.1" 200 -
+[ 2024-07-08 23:59:51,742 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:59:51] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-08 23:59:52,581 ] 145 root - INFO - inside about route
+[ 2024-07-08 23:59:52,583 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:59:52] "GET /about HTTP/1.1" 200 -
+[ 2024-07-08 23:59:52,673 ] 96 werkzeug - INFO - 127.0.0.1 - - [08/Jul/2024 23:59:52] "[36mGET /static/about.css HTTP/1.1[0m" 304 -
+[ 2024-07-09 00:02:16,911 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-09 00:02:16,911 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:02:16] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-09 00:02:17,009 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:02:17] "[36mGET /static/table.css HTTP/1.1[0m" 304 -
+[ 2024-07-09 00:02:18,109 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-09 00:02:18,109 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-09 00:02:18,118 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:02:18] "GET / HTTP/1.1" 200 -
+[ 2024-07-09 00:02:18,209 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:02:18] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-09 00:04:12,787 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-09 00:04:12,789 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:12] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-09 00:04:12,878 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:12] "[36mGET /static/table.css HTTP/1.1[0m" 304 -
+[ 2024-07-09 00:04:13,989 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-09 00:04:13,989 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-09 00:04:13,992 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:13] "GET / HTTP/1.1" 200 -
+[ 2024-07-09 00:04:14,080 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:14] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-09 00:04:14,839 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-09 00:04:14,841 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:14] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-09 00:04:14,934 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:14] "[36mGET /static/table.css HTTP/1.1[0m" 304 -
+[ 2024-07-09 00:04:15,816 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-09 00:04:15,816 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-09 00:04:15,818 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:15] "GET / HTTP/1.1" 200 -
+[ 2024-07-09 00:04:15,913 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:15] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-09 00:04:16,796 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-09 00:04:16,796 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:16] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-09 00:04:16,879 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:16] "[36mGET /static/table.css HTTP/1.1[0m" 304 -
+[ 2024-07-09 00:04:17,896 ] 44 root - INFO - Inside Route Put Data
+[ 2024-07-09 00:04:17,896 ] 45 root - INFO - Trying to post data to the form
+[ 2024-07-09 00:04:17,896 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:17] "GET / HTTP/1.1" 200 -
+[ 2024-07-09 00:04:18,041 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:18] "[36mGET /static/style1.css HTTP/1.1[0m" 304 -
+[ 2024-07-09 00:04:18,724 ] 145 root - INFO - inside about route
+[ 2024-07-09 00:04:18,724 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:18] "GET /about HTTP/1.1" 200 -
+[ 2024-07-09 00:04:18,813 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:18] "[36mGET /static/about.css HTTP/1.1[0m" 304 -
+[ 2024-07-09 00:04:20,552 ] 77 root - INFO - Inside Todo-List route
+[ 2024-07-09 00:04:20,554 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:20] "GET /todo-list HTTP/1.1" 200 -
+[ 2024-07-09 00:04:20,645 ] 96 werkzeug - INFO - 127.0.0.1 - - [09/Jul/2024 00:04:20] "[36mGET /static/table.css HTTP/1.1[0m" 304 -

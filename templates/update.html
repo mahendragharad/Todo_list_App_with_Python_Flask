@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Todo</title>
+    <link rel="stylesheet" href="/static/update.css">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="background-container" style="background-image: url('/static/background.jpg');"></div>
+    
+    <nav class="navbar">
+        <a href="/todo-list" class="nav-link">View Todo List</a>
+    </nav>
+
+    <div class="container">
+        <h1>Update Todo</h1>
+        <form action="/update/{{ todo.Sr_No }}" method="POST" id="updateTodoForm">
+            <div class="form-group">
+                <label for="taskDescription">Task Description:</label>
+                <input type="text" id="taskDescription" name="taskDescription" value="{{ todo.task_desc }}" placeholder="Enter task description..." required>
+            </div>
+
+            <div class="form-group">
+                <label for="dueDate">Due Date:</label>
+                <input type="date" id="dueDate" name="dueDate" value="{{ todo.due_date }}" required>
+            </div>
+
+            <div class="form-group">
+                <label for="priority">Priority:</label>
+                <select id="priority" name="priority" required>
+                    <option value="low" {% if todo.priority == 'low' %}selected{% endif %}>Low</option>
+                    <option value="medium" {% if todo.priority == 'medium' %}selected{% endif %}>Medium</option>
+                    <option value="high" {% if todo.priority == 'high' %}selected{% endif %}>High</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <select id="category" name="category" required>
+                    <option value="Personal-Growth" {% if todo.category == 'Personal-Growth' %}selected{% endif %}>Personal-Growth</option>
+                    <option value="College-Study" {% if todo.category == 'College-Study' %}selected{% endif %}>College-Study</option>
+                    <option value="Exam-Preparation" {% if todo.category == 'Exam-Preparation' %}selected{% endif %}>Exam-Preparation</option>
+                    <option value="Communication" {% if todo.category == 'Communication' %}selected{% endif %}>Communication</option>
+                    <option value="Entertaiment" {% if todo.category == 'Entertaiment' %}selected{% endif %}>Entertaiment</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="dependencies">Dependencies:</label>
+                <select id="dependencies" name="dependencies" required>
+                    <option value="Finish-to-Start" {% if todo.dependencies == 'Finish-to-Start' %}selected{% endif %}>Finish-to-Start</option>
+                    <option value="Start-to-Start" {% if todo.dependencies == 'Start-to-Start' %}selected{% endif %}>Start-to-Start</option>
+                    <option value="Finish-to-Finish" {% if todo.dependencies == 'Finish-to-Finish' %}selected{% endif %}>Finish-to-Finish</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="estimatedTime">Estimated Time Required:</label>
+                <select id="estimatedTime" name="estimatedTime" required>
+                    <option value="1-Hour" {% if todo.estimated_time == '1-Hour' %}selected{% endif %}>1-Hour</option>
+                    <option value="2-Hours" {% if todo.estimated_time == '2-Hours' %}selected{% endif %}>2-Hours</option>
+                    <option value="3-Hours" {% if todo.estimated_time == '3-Hours' %}selected{% endif %}>3-Hours</option>
+                    <option value="4-Hours" {% if todo.estimated_time == '4-Hours' %}selected{% endif %}>4-Hours</option>
+                    <option value="5-Hours" {% if todo.estimated_time == '5-Hours' %}selected{% endif %}>5-Hours</option>
+                    <option value="6-Hours" {% if todo.estimated_time == '6-Hours' %}selected{% endif %}>6-Hours</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="progress">Progress Tracking:</label>
+                <input type="text" id="progress" name="progress" value="{{ todo.progress }}" placeholder="Enter progress details" required>
+            </div>
+
+            <div class="form-group">
+                <label for="reward">Completion Reward:</label>
+                <input type="text" id="reward" name="reward" value="{{ todo.completion_reward }}" placeholder="Enter completion reward..." required>
+            </div>
+
+            <button type="submit">Update Todo</button>
+        </form>
+    </div>
+</body>
+
+</html>

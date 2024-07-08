@@ -1,0 +1,124 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.background-container {
+    height: 150px; /* Adjust as needed */
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.todo-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.todo-table th,
+.todo-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.todo-table th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.todo-table td {
+    vertical-align: middle;
+}
+
+.action-buttons {
+    text-align: center;
+}
+
+.action-buttons a {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    margin : 2px ;
+}
+
+.update-button {
+    background-color: #007bff; /* Blue */
+}
+
+.delete-button {
+    background-color: #dc3545; /* Red */
+}
+
+.add-todo-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Green */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.add-todo-button:hover,
+.update-button:hover,
+.delete-button:hover {
+    opacity: 0.8;
+}
+
+.table-container {
+    max-width: 1500px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure position is relative for absolute centering */
+    text-align: center; /* Center align content */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ensure container takes full height for vertical centering */
+}
+
+.alert-container {
+    margin-bottom: 20px; /* Optional margin bottom for separation */
+}
+
+.alert {
+    text-align: center; /* Center align text */
+    padding: 20px;
+}
+
+.add-todo-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Green */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 10px; /* Optional margin top */
+}
+
+.add-todo-button:hover {
+    opacity: 0.8;
+}

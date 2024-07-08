@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="/static/table.css">
+    <link rel="icon" href="/static/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+
+    <!-- <div class="background-container" style="background-image: url('/static/background.jpg');"></div> -->
+
+    <div class="table-container">
+        <h1>Your Todo's</h1>
+    
+        {% if allTodo|length == 0 %}
+    
+        <div class="alert-container">
+            <div class="alert alert-dark" role="alert">
+                No Todos found. Add your first todo now!
+                <a href="/" class="add-todo-button">Add Todo</a>
+            </div>
+        </div>
+
+        {% else %}
+        <div class="alert alert-dark" role="alert">
+            Click Here To Add Your New Todo Item Into Your Todo List !
+            <a href="/" class="add-todo-button">Proceed</a>
+        </div>
+        <table class="todo-table">
+            <thead>
+                <tr>
+                    <th class="sr-no">Sr.No</th>
+                    <th>Task Description</th>
+                    <th>Priority</th>
+                    <th>Due Date</th>
+                    <th>Category</th>
+                    <th>Dependencies</th>
+                    <th>Estimated Time Required</th>
+                    <th>Progress Tracking</th>
+                    <th>Completion Rewards</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for todo in allTodo %}
+                <tr>
+                    <td>{{ loop.index }}</td>
+                    <td>{{ todo.task_desc }}</td>
+                    <td>{{ todo.priority }}</td>
+                    <td>{{ todo.due_date }}</td>
+                    <td>{{ todo.category }}</td>
+                    <td>{{ todo.dependencies }}</td>
+                    <td>{{ todo.estimated_time }}</td>
+                    <td>{{ todo.progress }}</td>
+                    <td>{{ todo.completion_reward }}</td>
+                    <td class="action-buttons">
+                        <a href="/update/{{ todo.Sr_No }}" class="update-button mx-2">Update</a>
+                        <a href="/delete/{{ todo.Sr_No }}" class="delete-button mx-2">Delete</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        {% endif %}
+    </div>
+
+</body>
+
+</html>
